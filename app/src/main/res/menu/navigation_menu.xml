@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/ngay"
+        android:title="Công việc trong ngày"
+        android:icon="@drawable/ic_action_name"/>
+    <item
+        android:id="@+id/tuan"
+        android:title="Công việc trong tuần"
+        android:icon="@drawable/ic_action_name"/>
+    <item
+        android:id="@+id/thang"
+        android:title="Công việc trong tháng"
+        android:icon="@drawable/ic_action_name"/>
+    </group>
+
+    <item
+        android:id="@+id/thoat"
+        android:title="Thoát"
+        android:icon="@drawable/ic_action_thoat"/>
+
+</menu>
